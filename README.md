@@ -1,2 +1,0 @@
-# form
-react form component 

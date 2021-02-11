@@ -1,0 +1,118 @@
+#notification {
+    display: block;
+    width: 290px;
+    max-width: 290px;
+    min-height: 100px;
+    margin: 0;
+    padding: 15px 10px 10px 15px;
+    position: fixed;
+    right: -350px;
+    top: 80px;
+    box-shadow: 0 0 9px 1px #999;
+    background-color: #fff;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    z-index: 100000; }
+  
+  .notify {
+    animation: notify 5s ease-in-out; }
+  
+  @keyframes notify {
+    0% {
+      right: -350px; }
+    15% {
+      right: 50px; }
+    85% {
+      right: 50px; }
+    100% {
+      right: -350px; } }
+  
+  .notify-success {
+    border-left: 10px solid #42f235; }
+  
+  .notify-warning {
+    border-left: 10px solid #eef20c; }
+  
+  .notify-error {
+    border-left: 10px solid #f23322; }
+  
+  .notify-title {
+    padding: 0; }
+  
+  .notify-description {
+    padding: 15px 0 0 0; }
+    
+.pt10
+{
+    padding-top: 10px;
+}
+
+.pt15
+{
+    padding-top: 15px;
+}
+
+.pt20
+{
+    padding-top: 20px;
+}
+
+.input-set
+{
+    border: 2px solid #f6d358;
+    padding: 0 15px;
+    font-size: 18px;
+    border-radius: 0px;
+}
+
+.btn-yellow
+{
+    padding: 0 16px;
+    line-height: 31px;
+    background: #f6d358;
+    border-radius: 4px;
+    border: 1px solid #f6d358;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'SegoeUI Bold', Sans-Serif;
+}
+.shadow
+{
+    box-shadow: 3px 3px 7px 1px #333;
+}
+
+.service-card
+{
+    background-color: #ffff;
+    padding: 45px 20px;
+}
+
+.activate
+{
+    font-size: 45px;
+    font-weight: 600;
+
+}
+
+.activate-card
+{
+    font-size: 40px;
+    padding-bottom: 25px;
+    line-height: 1.1em;
+}
+
+.card-place
+{
+    background-image: url(service.jpg);
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-middle {
+    align-items: center;
+}
+
